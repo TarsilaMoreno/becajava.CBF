@@ -1,0 +1,6 @@
+CREATE TABLE Clube(
+	Id INT IDENTITY, 
+	Nome VARCHAR(100),
+	Pontos INT,
+	CONSTRAINT PK_Id_Clube PRIMARY KEY(Id)
+	)

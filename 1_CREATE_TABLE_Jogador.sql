@@ -1,0 +1,11 @@
+CREATE TABLE Jogador(
+	Id INT IDENTITY, 
+	Nome VARCHAR(100),
+	PosicaoId INT,
+	ClubeId INT,
+	CONSTRAINT PK_Id_Jogador PRIMARY KEY(Id),
+	CONSTRAINT FK_Posicao_Id FOREIGN KEY(PosicaoId)
+	REFERENCES Posicao(Id), 
+	CONSTRAINT FK_Clube_Id FOREIGN KEY(ClubeId)
+	REFERENCES Clube(Id)
+	)

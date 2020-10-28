@@ -1,0 +1,7 @@
+INSERT INTO Posicao(Nome) VALUES('Atacante')
+INSERT INTO Posicao(Nome) VALUES('Goleiro')
+INSERT INTO Posicao(Nome) VALUES('Zagueiro')
+INSERT INTO Posicao(Nome) VALUES('Meio Campo')
+INSERT INTO Posicao(Nome) VALUES('Lateral')
+INSERT INTO Posicao(Nome) VALUES('Volante')
+INSERT INTO Posicao(Nome) VALUES('Ponta')
